@@ -73,7 +73,7 @@ div#tela {
 
 iframe {
     width: 80vw;
-    height: 60vw;
+    height: 100%;
     border: none;
     border-radius: 12px;
     

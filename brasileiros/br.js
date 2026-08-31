@@ -78,18 +78,16 @@ const times = {
     vit: {
         nometime : 'Vitória',
         notas: `Defesa goleiro pro<br>Escanteios cedidos<br>Fraco fora de casa`
-
     }
-
-
 }
 
 
 function mostrarAnot(valor){
     let res = document.getElementById('res')
     let time = times[valor]
-    
-    res.innerHTML = `<h2>${time.nometime}</h2>
-                    <p>${time.notas}</p>`
+
+    res.innerHTML = `
+    <h2>${time.nometime}</h2>
+    <p>${time.notas}</p>`
             
 }
