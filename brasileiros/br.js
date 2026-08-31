@@ -81,13 +81,33 @@ const times = {
     }
 }
 
+let time1 = ''
+let time2 = ''
 
-function mostrarAnot(valor){
+function mostrarAnot(valor,numero){
+    if (numero == 1){
+        time1 = valor
+    } else{
+        time2 = valor
+    }
+
     let res = document.getElementById('res')
-    let time = times[valor]
 
-    res.innerHTML = `
-    <h2>${time.nometime}</h2>
-    <p>${time.notas}</p>`
-            
+    res.innerHTML = ''
+
+    if (time1 != '') {
+    res.innerHTML += `
+    <h2>${times[time1].nometime}</h2>
+    <p>${times[time1].notas}</p>
+    <br>` 
+}
+if (time2 != '') {
+    res.innerHTML += `
+    <br><hr><br>
+    <h2>${times[time2].nometime}</h2>
+    <p>${times[time2].notas}</p>`
+}
+
+    
+    
 }

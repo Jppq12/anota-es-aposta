@@ -5,20 +5,38 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+
+
 main {
     background-image: linear-gradient(
         135deg,
         #009c3b,
         #ffdf00,
-        #002776    
+        #002776,  
+        #ffffff,
+        #002776,
+        #ffdf00,
+        #009c3b
+
     );
+    
     height: 100vh;
     width: 100vw;
     padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main h1{
+    color: white;
+    text-shadow: 2px 2px black;
 }
 
 select {
     margin: 5px;
+    
 }
 
 div#res {
@@ -30,6 +48,10 @@ div#res {
     border: 2px solid black;
 }
 
+hr {
+    border: 0;
+    border-top: 3px solid black;
+}
 
 option[value='ath'] {
     background-color: red;
