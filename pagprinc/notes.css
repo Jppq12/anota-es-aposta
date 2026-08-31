@@ -78,3 +78,9 @@ iframe {
     border-radius: 12px;
     
 }
+
+@media (min-width: 768px) {
+    iframe {
+        width: 600px;    
+    }
+}
