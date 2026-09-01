@@ -18,29 +18,57 @@ body{
 }
 
 header {
-    
+    text-align: center;
     background-color: var(--elementos);
     padding: 15px;
     color: var(--texto);
     
 }
 
-nav {
-    text-align: center;
+main {
+    display: grid;
+    grid-template-columns: auto 70vw auto;
+
+    justify-content: center;
+
+
+    gap: 30px;
+    
 }
 
-header h1 {
-    padding-bottom: 15px;
+nav {
+    grid-column: 1;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    
+    
 }
 
 a {    
     text-decoration: none;
-    padding: 8px;
-    margin: 10px;
-    border-radius: 12px;
     color: var(--texto);
     font-size: 15pt;
     text-shadow: 2px 2px black;
+    border-radius: 50%;
+    text-align: center;
+
+    height: 50px;
+    width: 50px;
+
+    
+}
+
+img#br {
+    width: 100%;
+    height: 90%;
+    padding-top: 5px;
+}
+
+img#eur {
+    width: 100%;
+    height: 100%;
 }
 
 a#brasil {
@@ -56,12 +84,6 @@ a#eur {
     background-color: #003399;
 }
 
-main {
-    display: flex;
-    justify-content: center;
-    height: 400px;
-    
-}
 
 div#tela {
     grid-column: 2;
@@ -69,10 +91,11 @@ div#tela {
     margin-top: 20px;
     box-shadow:3px 3px 18px var(--destaque);
     border-radius: 12px;
+    height: 350px;
 }
 
 iframe {
-    width: 80vw;
+    width: 70vw;
     height: 100%;
     border: none;
     border-radius: 12px;
@@ -81,6 +104,6 @@ iframe {
 
 @media (min-width: 768px) {
     iframe {
-        width: 600px;    
+           
     }
 }

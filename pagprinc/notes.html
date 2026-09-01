@@ -8,14 +8,18 @@
 </head>
 <body>
     <header>
-        <nav>
-            <h1>Minhas anotações</h1>
-            <a href="#" id="brasil" onclick="brasileiros()">Brasileiros</a>
-            <a href="#" id="eur" onclick="europeus()">Europeus</a>
-        </nav>
+        <h1>Minhas anotações</h1>
     </header>
 
     <main>
+    <nav>
+        <a href="#" id="brasil" onclick="brasileiros()">
+            <img src="Campeonato_Brasileiro_Série_A_logo_(2024).svg" id="br" alt="Brasileirão">
+        </a>
+        <a href="#" id="eur" onclick="europeus()">
+            <img src="eur.png" id="eur" alt="Ligas Europeias">
+        </a>
+    </nav>
         <div id="tela"><iframe src=""  id="mostranotas" frameborder="0"></iframe></div>
     </main>
     <script src="notes.js"></script>
