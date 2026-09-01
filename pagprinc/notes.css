@@ -47,13 +47,7 @@ nav {
 }
 
 a {    
-    text-decoration: none;
-    color: var(--texto);
-    font-size: 15pt;
-    text-shadow: 2px 2px black;
     border-radius: 50%;
-    text-align: center;
-
     height: 50px;
     width: 50px;
 
@@ -78,10 +72,15 @@ a#brasil {
         #ffdf00,
         #002776    
     );
+    box-shadow: 3px 3px 10px #009c3b,
+                -3px -3px 10px #ffdf00;
 }
 
 a#eur {
     background-color: #003399;
+    box-shadow:
+        2px 2px 10px #ff0000,
+        -2px -2px 10px #003399;
 }
 
 
@@ -91,7 +90,7 @@ div#tela {
     margin-top: 20px;
     box-shadow:3px 3px 18px var(--destaque);
     border-radius: 12px;
-    height: 350px;
+    height: 70vh;
 }
 
 iframe {
@@ -103,7 +102,7 @@ iframe {
 }
 
 @media (min-width: 768px) {
-    iframe {
-           
+    div#tela {
+           height: 350px;
     }
 }
