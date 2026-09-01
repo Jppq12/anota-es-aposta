@@ -1,10 +1,10 @@
+let ifr = document.getElementById('mostranotas')
+
 function brasileiros() {
-    let ifr = document.getElementById('mostranotas')
     ifr.src = '../brasileiros/br.html'
     
 }
 
-
 function europeus(){
-    
+    ifr.src = '../europeus/eur.html'
 }
