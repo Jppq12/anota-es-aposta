@@ -7,8 +7,65 @@
     <link rel="stylesheet" href="eur.css">
 </head>
 <body>
-    <h1>Em construção...</h1>
-    <p>Aguarde o processo</p>
+
+    <header>
+        <h1>Times Europeus</h1>
+    </header>
+
+    <main>
+        <div id="seletores">
+            <select name="" id="timeseur" onchange="mostrarAnot(this.value)">
+
+                <option value="" selected>Time 1:</option>
+
+                <optgroup id="alem" label=" Alemanha">
+
+                    <option value="bay">Bayern</option>
+                    
+                </optgroup>
+
+                <optgroup id="esp" label="Espanha">
+
+                    <option value="real">Real Madrid</option>
+                    <option value="barca">Barcelona</option>
+
+                </optgroup>
+
+                <optgroup id="fran" label="França">
+                    
+                    <option value="psg">Psg</option>
+                    
+                </optgroup>
+
+                <optgroup id="ing" label="Inglaterra">
+
+                    <option value="ars">Arsenal</option>
+                    <option value="che">Chelsea</option>
+                    <option value="liv">Liverpool</option>
+                    <option value="mci">Manchester City</option>
+                    <option value="mun">Manchester United</option>
+
+                </optgroup>
+
+                <optgroup id="ita" label="Itália">
+
+                    <option value="rom">Roma</option>
+                    <option value="int">Inter</option>
+                    <option value="mil">Milan</option>
+
+                </optgroup>
+
+            </select>
+        </div>
+
+        <div id="res">
+
+        </div>
+
+        <button type="button" id="limpar" onclick="limpar()">Limpar</button>
+
+    </main>
+    
     
     <script src="eur.js"></script>
 </body>

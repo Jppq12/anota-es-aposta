@@ -38,7 +38,7 @@ main h1{
 select {
     margin: 5px;
     padding: 2px;
-    cursor: pointer;
+    
     background-color: #002776;
     color: white;
 
@@ -84,8 +84,8 @@ button#limpar {
     outline: 2px solid #ffdf00;
     background-color: #002776;
     color: #ffffff;
-
     border-radius: 12px;
+    font-weight: bolder;
 }
 
 
