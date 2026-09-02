@@ -32,11 +32,23 @@ main {
 main h1{
     color: white;
     text-shadow: 2px 2px black;
+    font-size: 23px;
 }
 
 select {
     margin: 5px;
+    padding: 2px;
     cursor: pointer;
+    background-color: #002776;
+    color: white;
+
+    border: 2px solid #ffdf00;
+    border-radius: 12px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+    outline: 2px solid #009c3b;
 }
 
 div#res {
@@ -47,10 +59,33 @@ div#res {
     background-color: white;
     border: 2px solid black;
     border-radius: 12px;
+    font-size: 14px;
+}
+
+div#res h2 {
+    font-size: 18px;
+}
+
+#res ul {
+    margin-left: 12px;
+    padding-left: 5px;
 }
 
 hr {
     border: 0;
     border-top: 3px solid black;
 }
+
+button#limpar {
+    padding: 3px;
+    cursor: pointer;
+
+    border: 2px solid #009c3b;
+    outline: 2px solid #ffdf00;
+    background-color: #002776;
+    color: #ffffff;
+
+    border-radius: 12px;
+}
+
 

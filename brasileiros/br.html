@@ -15,7 +15,7 @@
         <h1>Times Brasileiros</h1>
         <div id="seletores">
             <select name="" id="timesbr1" onchange="mostrarAnot(this.value,1)">
-                <option value="" selected disabled>Time 1:</option>
+                <option value="" selected>Time 1:</option>
                 <option value="ath">Athletico-PR</option>
                 <option value="cam">Atlético-MG</option>
                 <option value="bah">Bahia</option>
@@ -38,7 +38,7 @@
                 <option value="vit">Vitória</option>
             </select>
             <select name="" id="timesbr2" onchange="mostrarAnot(this.value,2)">
-                <option value="" selected disabled>Time 2:</option>
+                <option value="" selected>Time 2:</option>
                 <option value="ath">Athletico-PR</option>
                 <option value="cam">Atlético-MG</option>
                 <option value="bah">Bahia</option>
@@ -64,6 +64,7 @@
         <div id="res">
             
         </div>
+        <button type="button" id="limpar" onclick="limpar()">Limpar</button>
     </main>
 
     <script src="br.js"></script>

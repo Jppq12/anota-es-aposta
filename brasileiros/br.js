@@ -1,88 +1,174 @@
 const times = {
-    ath:{
+    ath: {
         nometime: 'Athletico-PR',
-        notas: `Escanteios pro e contra<br>Escanteio 1°tempo<br>Evitar def goleiro`
+        notas: `<ul>
+                    <li>Escanteios pro e contra</li>
+                    <li>Chute a gol Viveiros</li>
+                    <li>Defesa goleiro pro e contra</li>
+                </ul>`
     },
-    cam:{
-        nometime: "Atlético-MG",
-        notas: `Defesas goleiro pro(sempre) e contra(obs adversario)<br>Escanteios pro e contra`
+
+    cam: {
+        nometime: 'Atlético-MG',
+        notas: `<ul>
+                    <li>Defesas goleiro pro (sempre) e contra (obs adversário)</li>
+                    <li>Escanteios pro e contra</li>
+                </ul>`
     },
-    bah:{
-        nometime: "Bahia",
-        notas: `Escanteios pro e contra<br>`
+
+    bah: {
+        nometime: 'Bahia',
+        notas: `<ul>
+                    <li>Escanteios pro e contra</li>
+                    <li>Observar Defesa goleiro adversario </li>
+                </ul>`
     },
-    bot:{
-        nometime: "Botafogo",
-        notas: `Defesas do goleiro<br>Escanteios pro e contra`
+
+    bot: {
+        nometime: 'Botafogo',
+        notas: `<ul>
+                    <li>Defesas do goleiro pro e contra</li>
+                    <li>Escanteios pro e contra</li>
+                </ul>`
     },
+
     cha: {
-        nometime: "Chapecoense",
-        notas: `Escanteios pro e contra<br>Defesas do goleiro`
+        nometime: 'Chapecoense',
+        notas: `<ul>
+                    <li>Escanteios pro e contra</li>
+                    <li>Defesas do goleiro pro</li>
+                </ul>`
     },
-    corin:{
+
+    corin: {
         nometime: 'Corinthians',
-        notas: `Observar def goleiro <br>Observar escanteios Under`
+        notas: `<ul>
+                    <li>Observar def goleiro</li>
+                    <li>Observar escanteios </li>
+                </ul>`
     },
+
     corit: {
         nometime: 'Coritiba',
-        notas : `Defesa goleiro pro<br>Escanteios geral`
+        notas: `<ul>
+                    <li>Defesa goleiro pro</li>
+                    <li>Escanteios pro e contra</li>
+                </ul>`
     },
-    cru:{
+
+    cru: {
         nometime: 'Cruzeiro',
-        notas: `Defesa goleiro pro(sempre) e contra(obs)<br>Escanteios pro e contra<br>Cartões`
+        notas: `<ul>
+                    <li>Defesa goleiro pro (sempre) e contra (obs)</li>
+                    <li>Escanteios pro e contra</li>
+                    <li>Cartões</li>
+                </ul>`
     },
+
     fla: {
         nometime: 'Flamengo',
-        notas: `Vitoria simples<br>Não colocar escanteios<br> Defesas goleiro adversario`
+        notas: `<ul>
+                    <li>Vitória simples</li>
+                    <li>Não colocar escanteios</li>
+                    <li>Defesas goleiro (observar pro) e contra</li>
+                </ul>`
     },
+
     flu: {
         nometime: 'Fluminense',
-        notas: `Escanteios pro e contra<br>Defesas goleiro pro e contra`
+        notas: `<ul>
+                    <li>Escanteios pro e contra</li>
+                    <li>Defesas goleiro pro e contra</li>
+                    <li>Chute a gol Hulk</li>
+                </ul>`
     },
+
     gre: {
         nometime: 'Grêmio',
-        notas: `Observar defesas de goleiro pro e contra<br>Escanteios pro e contra`
+        notas: `<ul>
+                    <li>Observar defesas de goleiro pro e contra</li>
+                    <li>Escanteios pro e contra</li>
+                </ul>`
     },
-    int : {
+
+    int: {
         nometime: 'Internacional',
-        notas: `Defesa goleiro pro<br>Escanteios pro e contra`
+        notas: `<ul>
+                    <li>Defesa goleiro pro</li>
+                    <li>Escanteios pro e contra</li>
+                </ul>`
     },
+
     mir: {
         nometime: 'Mirassol',
-        notas: `Defesas goleiro pro<br>Escanteios pro e contra`
+        notas: `<ul>
+                    <li>Defesas goleiro pro</li>
+                    <li>Escanteios pro e contra</li>
+                </ul>`
     },
+
     pal: {
-        nometime:'Palmeiras',
-        notas: `Defesas goleiro pro e contra<br>Observar Escanteios geral<br>`
+        nometime: 'Palmeiras',
+        notas: `<ul>
+                    <li>Defesas goleiro pro e contra</li>
+                    <li>Observar escanteios geral</li>
+                    <li>Observar Flaco p/marcar</li>
+                </ul>`
     },
+
     rbb: {
         nometime: 'RB Bragantino',
-        notas: `Defesas goleiro pro<br>Escanteios geral`
+        notas: `<ul>
+                    <li>Defesas goleiro pro e contra(obs)</li>
+                    <li>Escanteios geral</li>
+                </ul>`
     },
+
     rem: {
         nometime: 'Remo',
-        notas: `Defesas goleiro pro<br>Escanteios cedidos`
+        notas: `<ul>
+                    <li>Defesas goleiro pro</li>
+                    <li>Escanteios cedidos</li>
+                </ul>`
     },
+
     san: {
         nometime: 'Santos',
-        notas : `Observar Defesas de goleiro pro e contra<br>Escanteios pro e contra`
+        notas: `<ul>
+                    <li>Observar defesas de goleiro pro e contra</li>
+                    <li>Escanteios pro(em casa) e contra</li>
+                </ul>`
     },
+
     sap: {
         nometime: 'São Paulo',
-        notas: `Escanteios pro e contra<br>Defesas goleiro pro e contra`
+        notas: `<ul>
+                    <li>Escanteios pro e contra</li>
+                    <li>Defesas goleiro pro e contra</li>
+                </ul>`
     },
+
     vas: {
         nometime: 'Vasco',
-        notas: `Defesas goleiro pro e contra<br>Observar escanteios`
+        notas: `<ul>
+                    <li> Observar Defesas goleiro pro e contra</li>
+                    <li>Observar escanteios</li>
+                </ul>`
     },
+
     vit: {
-        nometime : 'Vitória',
-        notas: `Defesa goleiro pro<br>Escanteios cedidos<br>Fraco fora de casa`
+        nometime: 'Vitória',
+        notas: `<ul>
+                    <li>Defesa goleiro pro</li>
+                    <li>Escanteios cedidos</li>
+                    <li>Fraco fora de casa</li>
+                </ul>`
     }
 }
 
 let time1 = ''
 let time2 = ''
+let res = document.getElementById('res')
 
 function mostrarAnot(valor,numero){
     if (numero == 1){
@@ -91,23 +177,29 @@ function mostrarAnot(valor,numero){
         time2 = valor
     }
 
-    let res = document.getElementById('res')
-
     res.innerHTML = ''
 
     if (time1 != '') {
     res.innerHTML += `
     <h2>${times[time1].nometime}</h2>
     <p>${times[time1].notas}</p>
-    <br>` 
+    ` 
 }
 if (time2 != '') {
     res.innerHTML += `
-    <br><hr><br>
+    <br><hr>
     <h2>${times[time2].nometime}</h2>
     <p>${times[time2].notas}</p>`
 }
+  
+}
 
-    
-    
+function limpar() {
+    res.innerHTML = '' //limpando caixa de texto
+
+    time1 = ''
+    time2 = ''
+
+    document.getElementById('timesbr1').selectedIndex = 0 //Zerando a escolha do time
+    document.getElementById('timesbr2').selectedIndex = 0 //Zerando a escolha do time
 }
