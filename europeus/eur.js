@@ -1,44 +1,58 @@
 const times = {
-    bay:{nometime : 'Bayern',
-    notas: `<ul>
-            <li> </li>
-            <li> </li>
-            <li> </li></ul>`
+        bay:{nometime : 'Bayern',
+            notas: `<ul>
+            <li>Defesas goleiro adversario</li>
+            <li>Chute a Gol Olise </li>
+            <li>Escanteios pro </li>
+            <li>Handicap -1</li>
+            </ul>`
+        },
+        bor:{nometime: 'Borussia Dortmund',
+            notas:`<ul>
+            <li>Defesas goleiro adversario</li>
+            <li>Mais escanteios no jogo</li>
+            </ul>`
         },
         real: {
             nometime : 'Real Madrid',
             notas: `<ul>
-            <li> </li>
-            <li> </li>
-            <li> </li></ul>`
+            <li>Chute a gol Mbape</li>
+            <li>Defesa goleiro pro(obs) e adversario</li>
+            <li>Escanteios pro </li>
+            <li>Handicap -1</li>
+            </ul>`
         },
         barca :{
             nometime : 'Barcelona',
             notas: `<ul>
-            <li> </li>
-            <li> </li>
-            <li> </li></ul>`
+            <li>Chute a gol Raphinha e Yamal</li>
+            <li>Defesa goleiro adversario </li>
+            <li>Escanteios </li>
+            <li>Handicap -1</li>
+            </ul>`
         },
         psg:{
             nometime : 'Paris Saint-Germain',
             notas: `<ul>
-            <li> </li>
-            <li> </li>
-            <li> </li></ul>`
+            <li>Observar chutes a gol</li>
+            <li>Defesa goleiro adversario </li>
+            <li>Escanteios pro </li></ul>`
         },
         ars: {
             nometime : 'Arsenal',
             notas: `<ul>
-            <li> </li>
-            <li> </li>
-            <li> </li></ul>`
+            <li>Observar Under gols </li>
+            <li>Escanteios pro(contra adversario inferior) </li>
+            <li>Observar ambas não marcam ou Resultado correto(1-0/ 2-0/ 3-0) </li>
+            </ul>`
         },
         che:{
             nometime : 'Chelsea',
             notas: `<ul>
-            <li> </li>
-            <li> </li>
-            <li> </li></ul>`
+            <li>Chute a gol Palmer e João Pedro </li>
+            <li>Over gols </li>
+            <li>Escanteios geral </li>
+            <li>Defesa goleiro pro e adversario </li></ul>`
         },
         liv:{
             nometime : 'Liverpool',
