@@ -7,7 +7,10 @@
 body {
     background:linear-gradient( 180deg,#003399,#fcfbf9, #003399);
     overflow: hidden;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;background-image: url("img/fundochampions.png");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
 }
 
 header {
@@ -30,6 +33,8 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    
 }
 
 select {

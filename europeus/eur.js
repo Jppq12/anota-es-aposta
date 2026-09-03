@@ -57,23 +57,23 @@ const times = {
         liv:{
             nometime : 'Liverpool',
             notas: `<ul>
-            <li> </li>
-            <li> </li>
-            <li> </li></ul>`
+            <li>Chute a gol Isak</li>
+            <li>Observar escanteios</li>
+            <li>Observar defesas goleiro pro e contra</li></ul>`
         },
         mci:{
             nometime : 'Manchester City',
             notas: `<ul>
-            <li> </li>
-            <li> </li>
-            <li> </li></ul>`
+            <li>Chute a gol Haaland</li>
+            <li>Escanteios pro</li>
+            <li>Defesa goleiro adversario</li></ul>`
         },
         mun:{
             nometime : 'Manchester United',
             notas: `<ul>
-            <li> </li>
-            <li> </li>
-            <li> </li></ul>`
+            <li>Escanteios pro</li>
+            <li>Defesa de goleiro adversario</li>
+            <li>Observar chute a gol Bruno. F e Matheus. C </li></ul>`
         },
         rom: {
             nometime : 'Roma',
@@ -110,8 +110,6 @@ function mostrarAnot(valor){
     <p>${times[time1].notas}</p>
     ` 
 }
-
-  
 }
 
 function limpar() {
