@@ -132,7 +132,7 @@ function corfundo(select) {
                     break
 
                 case 'Espanha':
-                    nome.style.background = 'linear-gradient(to right,red,yellow,red'
+                    nome.style.background = 'linear-gradient(to right,red,red,yellow,red,red'
                     nome.style.color = 'white'
                     break
 
