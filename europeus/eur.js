@@ -116,9 +116,43 @@ function mostrarAnot(valor){
     <h2>${times[time1].nometime}</h2>
     <p>${times[time1].notas}</p>
     ` 
+        
 }
 }
 
+function corfundo(select) {
+            let opcao = select.options[select.selectedIndex]
+            let grupo = opcao.parentElement
+            let nome = res.querySelector('h2')
+            
+            switch (grupo.label) {
+                case 'Alemanha':
+                    nome.style.background = 'linear-gradient(to bottom,black,red,yellow'
+                    nome.style.color = 'white'
+                    break
+
+                case 'Espanha':
+                    nome.style.background = 'linear-gradient(to right,red,yellow,red'
+                    nome.style.color = 'white'
+                    break
+
+                case 'França':
+                    nome.style.background = 'linear-gradient(to right,#000091,#ffffff,#e1000f'
+                    nome.style.color = 'white'
+                    break
+                
+                case 'Inglaterra':
+                    nome.style.background = 'linear-gradient(to right,white,#cf142b,white'
+                    nome.style.color = 'white'
+                    break
+
+                case 'Itália':
+                    nome.style.background = 'linear-gradient(to right,#008c45,#f4f5f0,#cd212a'
+                    nome.style.color = 'white'
+                    break
+        }
+    
+    }
 function limpar() {
     res.innerHTML = '' //limpando caixa de texto
 
