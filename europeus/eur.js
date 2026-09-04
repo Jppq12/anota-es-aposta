@@ -75,26 +75,33 @@ const times = {
             <li>Defesa de goleiro adversario</li>
             <li>Observar chute a gol Bruno. F e Matheus. C </li></ul>`
         },
-        rom: {
-            nometime : 'Roma',
-            notas: `<ul>
-            <li> </li>
-            <li> </li>
-            <li> </li></ul>`
-        },
         int: {
             nometime : 'Inter de Milão',
             notas: `<ul>
-            <li> </li>
-            <li> </li>
-            <li> </li></ul>`
+            <li>Observar chute a gol Barrela,Dimarco </li>
+            <li>Vitoria simples,Observar Handicap </li>
+            <li>Observar Defesa goleiro adversario </li></ul>`
+        },
+        juv: {
+            nometime:'Juventus',
+            notas: `<ul>
+            <li>Escanteios pro </li>
+            <li>Defesa goleiro adversario </li></ul>`
         },
         mil:{
             nometime : 'Milan',
             notas: `<ul>
-            <li> </li>
-            <li> </li>
-            <li> </li></ul>`
+            <li>Observar chute a gol Gonçalo Ramos</li>
+            <li>Under escanteios </li>
+            <li>Defesa goleiro adversario </li></ul>`
+        },
+        rom: {
+            nometime : 'Roma',
+            notas: `<ul>
+            <li>Chute a gol Malen,Marcar</li>
+            <li>Vitoria/handicap</li>
+            <li>Under escanteios</li>
+            <li>Defesa goleiro adversario</li></ul>`
         }
 }
 let time1 = ''
