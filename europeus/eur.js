@@ -9,8 +9,9 @@ const times = {
         },
         bor:{nometime: 'Borussia Dortmund',
             notas:`<ul>
+            <li>Chute a Gol Guirassy</li>
             <li>Defesas goleiro adversario</li>
-            <li>Mais escanteios no jogo</li>
+            <li>Escanteios pro e contra</li>
             </ul>`
         },
         real: {
@@ -18,7 +19,7 @@ const times = {
             notas: `<ul>
             <li>Chute a gol Mbape</li>
             <li>Defesa goleiro pro(obs) e adversario</li>
-            <li>Escanteios pro </li>
+            <li>Escanteios pro e contra</li>
             <li>Handicap -1</li>
             </ul>`
         },
@@ -34,7 +35,7 @@ const times = {
         psg:{
             nometime : 'Paris Saint-Germain',
             notas: `<ul>
-            <li>Observar chutes a gol</li>
+            <li>Chutes a gol Dembele,Ferran</li>
             <li>Defesa goleiro adversario </li>
             <li>Escanteios pro </li></ul>`
         },
@@ -51,20 +52,20 @@ const times = {
             notas: `<ul>
             <li>Chute a gol Palmer e João Pedro </li>
             <li>Over gols </li>
-            <li>Escanteios geral </li>
-            <li>Defesa goleiro pro e adversario </li></ul>`
+            <li>Observar Escanteios geral </li>
+            <li>Observar Defesa goleiro pro e adversario </li></ul>`
         },
         liv:{
             nometime : 'Liverpool',
             notas: `<ul>
-            <li>Chute a gol Isak</li>
+            <li>Chute a gol Isak,Szoboszlai(obs)</li>
             <li>Observar escanteios</li>
             <li>Observar defesas goleiro pro e contra</li></ul>`
         },
         mci:{
             nometime : 'Manchester City',
             notas: `<ul>
-            <li>Chute a gol Haaland</li>
+            <li>Chute a gol Haaland,Marcar gol</li>
             <li>Escanteios pro</li>
             <li>Defesa goleiro adversario</li></ul>`
         },
@@ -75,12 +76,21 @@ const times = {
             <li>Defesa de goleiro adversario</li>
             <li>Observar chute a gol Bruno. F e Matheus. C </li></ul>`
         },
+        com:{
+            nometime : 'Como',
+            notas: `<ul>
+            <li>Observar Escanteios pro(adv inferior) e contra</li>
+            <li>Defesa de goleiro adversario</li>
+            <li>Chute a gol Baturina,Douvikas </li></ul>`
+        },
         int: {
             nometime : 'Inter de Milão',
             notas: `<ul>
             <li>Observar chute a gol Barrela,Dimarco </li>
             <li>Vitoria simples,Observar Handicap </li>
-            <li>Observar Defesa goleiro adversario </li></ul>`
+            <li>Observar Defesa goleiro adversario </li>
+            <li>Escanteios geral</li>
+            </ul>`
         },
         juv: {
             nometime:'Juventus',
@@ -98,7 +108,7 @@ const times = {
         rom: {
             nometime : 'Roma',
             notas: `<ul>
-            <li>Chute a gol Malen,Marcar</li>
+            <li>Chute a gol Malen,Dybala(um dos dois marcar ou assistencia)</li>
             <li>Vitoria/handicap</li>
             <li>Under escanteios</li>
             <li>Defesa goleiro adversario</li></ul>`
