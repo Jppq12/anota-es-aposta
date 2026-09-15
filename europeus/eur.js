@@ -43,7 +43,7 @@ const times = {
             nometime : 'Arsenal',
             notas: `<ul>
             <li>Observar Under gols </li>
-            <li>Escanteios pro(contra adversario inferior) </li>
+            <li>Defesa goleiro adversario</li>
             <li>Observar ambas não marcam ou Resultado correto(1-0/ 2-0/ 3-0) </li>
             </ul>`
         },

@@ -5,7 +5,7 @@
 }
 
 body {
-    background:linear-gradient( 180deg,#003399,#fcfbf9, #003399);
+    background-color: #000330;
     overflow: hidden;
     font-family: Verdana, Geneva, Tahoma, sans-serif;background-image: url("img/fundochampions.png");
     background-size: 100% 100%;
