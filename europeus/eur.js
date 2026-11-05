@@ -2,34 +2,39 @@ const times = {
         bay:{nometime : 'Bayern',
             notas: `<ul>
             <li>Defesas goleiro adversario</li>
-            <li>Chute a Gol Olise </li>
             <li>Escanteios pro </li>
             <li>Handicap -1</li>
+            <li>Observar chute a Gol Olise </li>
             </ul>`
         },
         bor:{nometime: 'Borussia Dortmund',
             notas:`<ul>
             <li>Chute a Gol Guirassy</li>
             <li>Defesas goleiro adversario</li>
-            <li>Escanteios pro e contra</li>
+            <li>Escanteios pro(adv inferior) e contra</li>
             </ul>`
         },
         real: {
             nometime : 'Real Madrid',
             notas: `<ul>
+            <li>Marcador Mbape</li>
             <li>Chute a gol Mbape</li>
             <li>Defesa goleiro pro(obs) e adversario</li>
             <li>Escanteios pro e contra</li>
             <li>Handicap -1</li>
+            <li>Observar assistência Arda Guler</li>
+            <li>Observar chute a gol Guler,Bellingham</li>
             </ul>`
         },
         barca :{
             nometime : 'Barcelona',
             notas: `<ul>
+            <li>Marcador Raphinha/Yamal</li>
             <li>Chute a gol Raphinha e Yamal</li>
             <li>Defesa goleiro adversario </li>
-            <li>Escanteios </li>
             <li>Handicap -1</li>
+            <li>Observar escanteios </li>
+            <li>Observar assistências Fermin,Cancelo</li>
             </ul>`
         },
         psg:{
@@ -37,29 +42,31 @@ const times = {
             notas: `<ul>
             <li>Chutes a gol Dembele,Ferran</li>
             <li>Defesa goleiro adversario </li>
-            <li>Escanteios pro </li></ul>`
+            <li>Escanteios pro </li>
+            <li>Observar Handicap</li>
+            </ul>`
         },
         ars: {
             nometime : 'Arsenal',
             notas: `<ul>
             <li>Observar Under gols </li>
-            <li>Defesa goleiro adversario</li>
-            <li>Observar ambas não marcam ou Resultado correto(1-0/ 2-0/ 3-0) </li>
+            <ul> </ul>
+            <li>Observar Defesa goleiro adversario(adv pior)</li>
+            <li>Observar ambas não marcam ou Resultado correto(1-0/ 2-0/ 3-0)(adv pior)</li>
             </ul>`
         },
         che:{
             nometime : 'Chelsea',
             notas: `<ul>
             <li>Chute a gol Palmer e João Pedro </li>
-            <li>Over gols </li>
-            <li>Observar Escanteios geral </li>
-            <li>Observar Defesa goleiro pro e adversario </li></ul>`
+            <li>Escanteios geral </li>
+            <li>Observar Defesa goleiro pro e adversario</li></ul>`
         },
         liv:{
             nometime : 'Liverpool',
             notas: `<ul>
-            <li>Chute a gol Isak,Szoboszlai(obs)</li>
-            <li>Observar escanteios</li>
+            <li>Chute a gol Isak</li>
+            <li>Observar adv para escanteios</li>
             <li>Observar defesas goleiro pro e contra</li></ul>`
         },
         mci:{
@@ -72,24 +79,30 @@ const times = {
         mun:{
             nometime : 'Manchester United',
             notas: `<ul>
-            <li>Escanteios pro</li>
-            <li>Defesa de goleiro adversario</li>
-            <li>Observar chute a gol Bruno. F e Matheus. C </li></ul>`
+            <li>Chute a gol Matheus Cunha</li>
+            <li>Observar chute a gol Bruno Fernandes</li>
+            <li>Observar Escanteios pro</li>
+            <li>Observar Defesa de goleiro adversario e pro</li>
+            </ul>`
         },
         com:{
             nometime : 'Como',
             notas: `<ul>
-            <li>Observar Escanteios pro(adv inferior) e contra</li>
+            <li>Nico Paz marcar ou dar assistência</li>
             <li>Defesa de goleiro adversario</li>
-            <li>Chute a gol Baturina,Douvikas </li></ul>`
+            <li>Observar Chute a gol Baturina,Douvikas </li>
+            <li>Observar Escanteios pro(adv inferior) e contra</li>
+            </ul>`
         },
         int: {
             nometime : 'Inter de Milão',
             notas: `<ul>
-            <li>Observar chute a gol Barrela,Dimarco </li>
-            <li>Vitoria simples,Observar Handicap </li>
-            <li>Observar Defesa goleiro adversario </li>
             <li>Escanteios geral</li>
+            <li>Vitoria simples,Observar Handicap</li>
+            <li>Observar escanteios pro(adv pior)</li>
+            <li>Observar chute a gol Thuram</li>
+            <li>Observar Defesa goleiro adversario </li>
+            
             </ul>`
         },
         juv: {
@@ -98,20 +111,26 @@ const times = {
             <li>Escanteios pro </li>
             <li>Defesa goleiro adversario </li></ul>`
         },
+        laz:{
+            nometime:'Lazio',
+            notas: `<ul>
+            <li>Vitoria simples(Aproveitar boa fase)</li>
+            </ul>`
+        },
         mil:{
             nometime : 'Milan',
             notas: `<ul>
-            <li>Observar chute a gol Gonçalo Ramos</li>
-            <li>Under escanteios </li>
-            <li>Defesa goleiro adversario </li></ul>`
+            <li>Observar Defesa goleiro pro e adversario </li>
+            <li>Observar chute a gol Pulisic</li>
+            </ul>`
         },
         rom: {
             nometime : 'Roma',
             notas: `<ul>
             <li>Chute a gol Malen,Dybala(um dos dois marcar ou assistencia)</li>
             <li>Vitoria/handicap</li>
-            <li>Under escanteios</li>
-            <li>Defesa goleiro adversario</li></ul>`
+            <li>Observar escanteios(adv pior)</li>
+            <li>Defesa goleiro pro e adversario</li></ul>`
         }
 }
 let time1 = ''
@@ -161,6 +180,7 @@ function corfundo(select) {
                     nome.style.color = 'white'
                     break
         }
+            
     
     }
 function limpar() {
