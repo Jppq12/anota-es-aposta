@@ -173,13 +173,13 @@ footer a {
     }
 
     nav a {
-        width: 48px;
-        height: 50px;
+        width: 60px;
+        height: 60px;
     }
 
     div#tela {
-        height: 75vh;
-        min-height: 350px;
+        height: 70vh;
+        min-height: 300px;
     }
 
     header h1 {
