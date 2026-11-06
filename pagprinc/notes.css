@@ -165,8 +165,7 @@ footer a {
     main {
         grid-template-columns: 55px minmax(0, 1fr);
         gap: 12px;
-        padding: 15px 10px;
-        padding-bottom: 0px;
+        padding: 20px 10px;
     }
 
     nav {
