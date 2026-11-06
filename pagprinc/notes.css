@@ -58,9 +58,8 @@ main {
     justify-content: center;
     align-items: center;
     gap: 20px;
-
-    min-height: calc(100vh - 75px);
-    padding: 25px 15px;
+    min-height: calc(100vh - 100px);
+    padding-bottom: 0px;
 }
 
 /* NAVEGAÇÃO */
@@ -74,8 +73,8 @@ nav {
 }
 
 nav a {
-    width: 60px;
-    height: 60px;
+    width: 78px;
+    height: 75px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -96,7 +95,7 @@ nav a:hover {
 
 nav img {
     width: 85%;
-    height: 85%;
+    height: 80%;
     object-fit: contain;
 }
 
@@ -147,6 +146,19 @@ iframe {
     border-radius: 15px;
 }
 
+footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: var(--texto);
+    text-shadow: 2px 2px 8px #00b8d480
+}
+
+footer a {
+    text-decoration: underline;
+    color: var(--texto);
+    
+}
+
 /* RESPONSIVIDADE */
 
 @media (max-width: 700px) {
@@ -154,6 +166,7 @@ iframe {
         grid-template-columns: 55px minmax(0, 1fr);
         gap: 12px;
         padding: 15px 10px;
+        padding-bottom: 0px;
     }
 
     nav {
