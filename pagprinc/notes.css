@@ -150,8 +150,9 @@ footer {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     color: var(--texto);
-    text-shadow: 2px 2px 8px #00b8d480
+    text-shadow: 2px 2px 8px #00b8d480;
 }
+
 
 footer a {
     text-decoration: underline;
