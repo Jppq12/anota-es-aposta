@@ -106,7 +106,7 @@ a#brasil {
 }
 
 a#brasil:hover {
-    box-shadow: 0 0 20px #009c3b, 0 0 30px #ffdf0060;
+    box-shadow: 0 0 16px #009c3b, 0 0 30px #ffdd009a;
 }
 
 /* ÍCONE EUROPA */
@@ -116,7 +116,7 @@ a#eur {
 }
 
 a#eur:hover {
-    box-shadow: 0 0 20px #003399, 0 0 30px #ff000060;
+    box-shadow: 0 0 16px #003399, 0 0 30px #ff000060;
 }
 
 /* ÁREA DO IFRAME */
@@ -178,8 +178,8 @@ footer a {
     }
 
     nav a {
-        width: 60px;
-        height: 60px;
+        width: 55px;
+        height: 55px;
     }
 
     div#tela {
