@@ -100,16 +100,3 @@ button#limpar {
     font-weight: bolder;
 }
 
-@media (max-width: 768px) {
-    body {
-    background:linear-gradient( 180deg,#003399,#fcfbf9, #003399);
-    overflow: hidden;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;background-image: url("img/fundochampions.png");
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    background-position: top;
-    width: 100vw;
-    height: 100vh;
-    }
-
-}
