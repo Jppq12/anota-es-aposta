@@ -3,8 +3,8 @@ const times = {
         nometime: 'Athletico-PR',
         notas: `<ul>
                     <li>Escanteios pro e contra</li>
-                    <li>Chute a gol Viveiros</li>
                     <li>Defesa goleiro pro e contra</li>
+                    <li>Fraco fora de casa</li>
                 </ul>`
     },
 
@@ -20,15 +20,17 @@ const times = {
         nometime: 'Bahia',
         notas: `<ul>
                     <li>Escanteios pro e contra</li>
-                    <li>Observar Defesa goleiro adversario </li>
+                    <li>Observar Defesa goleiro adversario e Defesa goleiro pro(fora de casa)</li>
                 </ul>`
     },
 
     bot: {
         nometime: 'Botafogo',
         notas: `<ul>
-                    <li>Defesas do goleiro pro e contra</li>
+                    
                     <li>Escanteios pro e contra</li>
+                    <li>Propõe pouco</li>
+                    <li>Observar def goleiro pro</li>
                 </ul>`
     },
 
@@ -61,6 +63,8 @@ const times = {
         notas: `<ul>
                     <li>Defesa goleiro pro (sempre) e contra (obs)</li>
                     <li>Escanteios pro e contra</li>
+                    <li>Chute a Gol KJ e Arroyo(obs)</li>
+                    <li>Marcar:KJ,Assistência:Arroyo e MP</li>
                     <li>Cartões</li>
                 </ul>`
     },
@@ -69,8 +73,10 @@ const times = {
         nometime: 'Flamengo',
         notas: `<ul>
                     <li>Vitória simples</li>
-                    <li>Não colocar escanteios</li>
+                    <li>Chute a gol Pedro e Lino(obs)</li>
+                    <li>Marcar ou assistência: Pedro e Lino</li>
                     <li>Defesas goleiro (observar pro) e contra</li>
+                    <li>Observar escanteios pro</li>
                 </ul>`
     },
 
@@ -79,14 +85,13 @@ const times = {
         notas: `<ul>
                     <li>Escanteios pro e contra</li>
                     <li>Defesas goleiro pro e contra</li>
-                    <li>Chute a gol Hulk</li>
                 </ul>`
     },
 
     gre: {
         nometime: 'Grêmio',
         notas: `<ul>
-                    <li>Observar defesas de goleiro pro e contra</li>
+                    <li>Defesas de goleiro pro e contra</li>
                     <li>Escanteios pro e contra</li>
                 </ul>`
     },
@@ -111,8 +116,7 @@ const times = {
         nometime: 'Palmeiras',
         notas: `<ul>
                     <li>Defesas goleiro pro e contra</li>
-                    <li>Observar escanteios geral</li>
-                    <li>Observar Flaco p/marcar</li>
+                    <li>Observar escanteios pro(adv pior em casa) e geral(obs)</li>
                 </ul>`
     },
 
@@ -135,8 +139,9 @@ const times = {
     san: {
         nometime: 'Santos',
         notas: `<ul>
-                    <li>Observar defesas de goleiro pro e contra</li>
+                    <li>Chute a gol Gabigol</li>
                     <li>Escanteios pro(em casa) e contra</li>
+                    <li>Observar defesas de goleiro pro e contra</li>
                 </ul>`
     },
 
@@ -151,8 +156,7 @@ const times = {
     vas: {
         nometime: 'Vasco',
         notas: `<ul>
-                    <li> Observar Defesas goleiro pro e contra</li>
-                    <li>Observar escanteios</li>
+                    <li>Evitar apostas no Vasco</li>
                 </ul>`
     },
 

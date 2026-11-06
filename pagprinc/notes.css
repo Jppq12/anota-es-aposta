@@ -149,15 +149,16 @@ iframe {
 footer {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
+    font-weight: bold;
     color: var(--texto);
-    text-shadow: 2px 2px 8px #00b8d480;
+    text-shadow: 2px 2px 30px var(--destaque);
 }
 
 
 footer a {
     text-decoration: underline;
+    font-weight: bold;
     color: var(--destaque);
-    text-shadow: 2px 2px 8px #00b8d480;
 }
 
 /* RESPONSIVIDADE */
